@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Alexander Dukhanov — actor portfolio">
+  <title>Alexander Dukhanov — Actor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top">ALEXANDER<br><span>DUKHANOV</span></a>
+    <nav>
+      <a href="#about" data-i18n="nav_about">About</a>
+      <a href="#work" data-i18n="nav_work">Work</a>
+      <a href="#skills" data-i18n="nav_skills">Skills</a>
+      <a href="#contact" data-i18n="nav_contact">Contact</a>
+    </nav>
+    <div class="lang-switch">
+      <button class="lang active" data-lang="en">EN</button>
+      <span>/</span>
+      <button class="lang" data-lang="de">DE</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="hero_eyebrow">ACTOR · STAGE · FILM · MUSIC</p>
+        <h1>Alexander<br><em>Dukhanov</em></h1>
+        <p class="hero-sub" data-i18n="hero_sub">Actor based in Carinthia, Austria.</p>
+        <a class="button" href="#work" data-i18n="hero_button">View selected work</a>
+      </div>
+      <div class="hero-image">
+        <img src="assets/portrait.jpg" alt="Alexander Dukhanov portrait">
+      </div>
+    </section>
+
+    <section class="quick-facts">
+      <div><span data-i18n="fact_age">Age</span><strong>17</strong></div>
+      <div><span data-i18n="fact_height">Height</span><strong>175 cm</strong></div>
+      <div><span data-i18n="fact_base">Based in</span><strong>Friesach, Kärnten</strong></div>
+      <div><span data-i18n="fact_languages">Languages</span><strong>DE · EN · UA · RU · FR</strong></div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-label">01 / <span data-i18n="label_about">ABOUT</span></div>
+      <div class="about-grid">
+        <div>
+          <h2 data-i18n="about_title">Actor with a strong stage background and a growing film experience.</h2>
+        </div>
+        <div class="about-text" id="about-text"></div>
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <div class="section-label">02 / <span data-i18n="label_work">SELECTED WORK</span></div>
+      <div class="work-intro">
+        <h2 data-i18n="work_title">Film & theatre</h2>
+        <p data-i18n="work_intro">A selection of recent projects and performances.</p>
+      </div>
+
+      <article class="project featured">
+        <div class="project-image video-wrap">
+          <iframe
+            src="https://www.youtube.com/embed/yw3d7dOkAzI"
+            title="The Gloves — Short Film"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+        <div class="project-copy">
+          <p class="project-type">SHORT FILM · 2026</p>
+          <h3>The Gloves</h3>
+          <p data-i18n="gloves_desc">Short cinematic film created with a friend. Alexander appears in the leading role.</p>
+          <a class="text-link" href="https://youtu.be/yw3d7dOkAzI" target="_blank" rel="noopener" data-i18n="watch_project">Watch project ↗</a>
+        </div>
+      </article>
+
+      <div class="project-grid">
+        <article class="project card">
+          <div class="card-number">02</div>
+          <div>
+            <p class="project-type">FEATURE FILM · COMING SOON</p>
+            <h3>Mila / Marija</h3>
+            <p data-i18n="mila_desc">Slovenian-Austrian film directed by Andrina Mračnikar. Alexander appears as a prisoner of war in a non-speaking role.</p>
+            <div class="links">
+              <a class="text-link" href="https://www.austrianfilms.com/films/Mila_Marija" target="_blank" rel="noopener">Austrian Films ↗</a>
+              <a class="text-link" href="https://on.orf.at/video/14305099/trailerat-folge-13" target="_blank" rel="noopener">ORF ON ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project card">
+          <div class="card-number">03</div>
+          <div>
+            <p class="project-type">FILM · IN PRODUCTION</p>
+            <h3>Pirker</h3>
+            <p data-i18n="pirker_desc">Austrian film with a small extra role.</p>
+            <a class="text-link" href="https://share.google/JabWkGPDdWUzN870s" target="_blank" rel="noopener">Project reference ↗</a>
+          </div>
+        </article>
+
+        <article class="project card wide">
+          <div class="card-number">04</div>
+          <div>
+            <p class="project-type">THEATRE · JUNGES THEATER KLAGENFURT</p>
+            <h3>Wir Kinder vom Bahnhof Zoo</h3>
+            <p data-i18n="zoo_desc">Youth drama based on the reports of Christiane F., adapted by Angie Mautz. Alexander performed in the ensemble.</p>
+            <div class="links">
+              <a class="text-link" href="https://www.jungestheaterklagenfurt.at/produktion/wir-kinder-vom-bahnhof-zoo/" target="_blank" rel="noopener">Junges Theater Klagenfurt ↗</a>
+              <a class="text-link" href="https://klagenfurterensemble.at/produktion/gastspiel-wir-kinder-vom-bahnhof-zoo/" target="_blank" rel="noopener">Klagenfurter Ensemble ↗</a>
+              <a class="text-link" href="https://kaernten.orf.at/tv/stories/3357363/" target="_blank" rel="noopener">ORF Kärnten ↗</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="section-label">03 / <span data-i18n="label_skills">SKILLS</span></div>
+      <div class="skills-grid">
+        <div class="skill-block">
+          <p class="skill-label" data-i18n="skill_music">Music</p>
+          <h3 data-i18n="music_list">Vocals · Electric guitar · Acoustic guitar · Piano · Drums</h3>
+          <p data-i18n="music_desc">Musical performances as a solo performer, with a band and as part of a choir.</p>
+        </div>
+        <div class="skill-block">
+          <p class="skill-label" data-i18n="skill_languages">Languages</p>
+          <h3>German · English · Ukrainian · Russian · French</h3>
+          <p data-i18n="languages_desc">French — basic level.</p>
+        </div>
+        <div class="skill-block">
+          <p class="skill-label" data-i18n="skill_sport">Sports</p>
+          <h3>Football · Table tennis · Tennis</h3>
+          <p data-i18n="sport_desc">Active and comfortable with physical roles and movement-based work.</p>
+        </div>
+        <div class="skill-block">
+          <p class="skill-label" data-i18n="skill_training">Training & experience</p>
+          <h3 data-i18n="training_title">Children's theatre school · Extensive stage experience</h3>
+          <p data-i18n="training_desc">Theatre, smaller film roles and self-produced short films.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery">
+      <div class="section-label">04 / <span data-i18n="label_gallery">PORTRAITS</span></div>
+      <div class="gallery-grid">
+        <img src="assets/full-body.jpg" alt="Alexander Dukhanov full-body portrait" loading="lazy">
+        <img src="assets/portrait.jpg" alt="Alexander Dukhanov portrait" loading="lazy">
+      </div>
+    </section>
+
+    <section class="section statement">
+      <div class="statement-inner" id="statement-text"></div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-label">05 / <span data-i18n="label_contact">CONTACT</span></div>
+      <div class="contact-content">
+        <h2 data-i18n="contact_title">Available for film, theatre and new creative projects.</h2>
+        <p data-i18n="contact_text">For casting enquiries, please get in touch using the contact details below.</p>
+        <div class="contact-details">
+          <a href="mailto:alex1andrew000@gmail.com">alex1andrew000@gmail.com</a>
+          <a href="tel:+4368110570206">+43 681 10570206</a>
+          <span data-i18n="contact_location">Friesach, Kärnten, Austria</span>
+          <span><span data-i18n="contact_birth">Date of birth</span> · 25/04/2009</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Alexander Dukhanov</span>
+    <span>Actor Portfolio · 2026</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
