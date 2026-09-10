@@ -7,8 +7,9 @@ A static, bilingual (English/German) actor portfolio prepared for GitHub Pages.
 - `index.html` — page structure and content
 - `style.css` — visual design and responsive layout
 - `script.js` — EN/DE language switcher
-- `assets/portrait.jpg` — portrait
+- `assets/portrait.jpg` — main portrait
 - `assets/full-body.jpg` — full-body photo
+- `assets/portrait-03.jpg` to `assets/portrait-09.jpg` — additional portfolio portraits
 
 ## GitHub Pages
 
